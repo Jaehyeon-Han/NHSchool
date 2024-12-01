@@ -6,16 +6,15 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- User ID input -->
     <EditText
         android:id="@+id/etUserId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="User ID"
         android:inputType="text"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:layout_marginTop="20dp"/>
 
-    <!-- Password input -->
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
@@ -25,7 +24,6 @@
         android:padding="10dp"
         android:layout_marginTop="16dp" />
 
-    <!-- Login button -->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
@@ -40,5 +38,12 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp">
     </ImageView>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh QR"
+        android:layout_marginTop="24dp" />
 
 </LinearLayout>

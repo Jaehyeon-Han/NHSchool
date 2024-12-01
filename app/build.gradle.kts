@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.nhdormmealqr"
+        applicationId = "com.example.experiment.nhdormmealqr"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -52,4 +52,5 @@ dependencies {
 
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.google.zxing:core:3.4.0")
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 }
